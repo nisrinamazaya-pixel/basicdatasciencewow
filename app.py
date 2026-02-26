@@ -106,7 +106,7 @@ usia = st.number_input("Usia", min_value=18, max_value=60, value=25)
 durasi_jam = st.slider("Durasi Pelatihan (Jam)", min_value=20, max_value=100, value=50)
 nilai_ujian = st.slider("Nilai Ujian", min_value=0.0, max_value=100.0, value=75.0, step=0.1)
 pendidikan = st.selectbox("Pendidikan", unique_pendidikan)
-jurusan = st.selectbox("Jurusan", unique_jurusan.tolist())
+jurusan = st.selectbox("Jurusan", unique_jurusan)
 jenis_kelamin = st.selectbox("Jenis Kelamin", ['Laki-laki', 'Wanita'])
 status_bekerja = st.selectbox("Status Bekerja", ['Sudah Bekerja', 'Belum Bekerja'])
 
