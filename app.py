@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 
 # --- 1. Load the Saved Model and Scaler ---
 model_filename = 'model_gradient_boosting.pkl'
-saler_filename = 'feature_scaler.pkl'
+scaler_filename = 'feature_scaler.pkl'
 
 try:
     with open(model_filename, 'rb') as file:
